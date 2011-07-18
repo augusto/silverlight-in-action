@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloYou", "HelloYou\HelloYou.csproj", "{51D5BEB9-DC13-4034-BFD5-5E564A195D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloYou.Web", "HelloYou.Web\HelloYou.Web.csproj", "{6DE53B6A-D785-4355-BB0C-8A71028ACE15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D5BEB9-DC13-4034-BFD5-5E564A195D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D5BEB9-DC13-4034-BFD5-5E564A195D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D5BEB9-DC13-4034-BFD5-5E564A195D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D5BEB9-DC13-4034-BFD5-5E564A195D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE53B6A-D785-4355-BB0C-8A71028ACE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE53B6A-D785-4355-BB0C-8A71028ACE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE53B6A-D785-4355-BB0C-8A71028ACE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE53B6A-D785-4355-BB0C-8A71028ACE15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
