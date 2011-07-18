@@ -6,4 +6,4 @@ obj/
 *.csproj.user
 *.suo
 *.cache
-**/*.xap
+*.xap
