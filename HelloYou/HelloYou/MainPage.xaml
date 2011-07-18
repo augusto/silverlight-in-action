@@ -7,9 +7,17 @@
     d:DesignHeight="300" d:DesignWidth="400">
 
     <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <RotateTransform Angle="30"/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+            
+            
         <TextBox Height="24" HorizontalAlignment="Left" Margin="128,12,0,0" Name="Input" VerticalAlignment="Top" Width="141" KeyUp="Input_KeyUp" />
-        <Button Content="Hello computer" Height="24" HorizontalAlignment="Left" Margin="12,48,0,0" Name="Submit" VerticalAlignment="Top" Width="136" Click="Submit_Click" />
-        <TextBlock Height="24" HorizontalAlignment="Left" Margin="12,84,0,0" Name="SayHello" Text="TextBlock" VerticalAlignment="Top" Width="160" Visibility="Collapsed" />
+        <Button Content="Hello computer" Height="24" HorizontalAlignment="Left" Margin="27,48,0,0" Name="Submit" VerticalAlignment="Top" Width="100" Click="Submit_Click" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="54,84,0,0" Name="SayHello" VerticalAlignment="Top" Width="160" Visibility="Visible" />
         <TextBlock  Height="14" HorizontalAlignment="Left" Margin="12,17,0,0" Name="NameLabel" Text="What's your name?" VerticalAlignment="Top" Width="115" />
+            
     </Grid>
 </UserControl>

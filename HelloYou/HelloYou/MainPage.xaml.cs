@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace HelloYou
 {
@@ -21,6 +22,7 @@ namespace HelloYou
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
+            new TextBlock();
             var name = Input.Text;
             SayHello.Text = "Hello " + name + "!!";
             SayHello.Visibility = System.Windows.Visibility.Visible;
